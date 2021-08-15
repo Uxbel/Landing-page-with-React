@@ -2,6 +2,7 @@ import React from "react";
 
 //import your own components
 import Navbar from "../component/Navbar.jsx";
+import { Jumbotron } from "./Jumbotron.jsx";
 
 //import your own components
 import Footer from "./Footer.jsx";
@@ -14,6 +15,12 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
+			<Jumbotron
+				title="A Warm Welcome!"
+				description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquamrepellat."
+				buttonLabel="Call to action!"
+				buttonURL="#"
+			/>
 			<Footer />
 		</div>
 	);
