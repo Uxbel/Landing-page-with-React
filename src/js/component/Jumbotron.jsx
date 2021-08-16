@@ -1,9 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+const JumbotronStyle = {
+	margin: "0 15px 0 15px"
+};
+
 const Jumbotron = props => {
 	return (
-		<div className="jumbotron">
+		<div className="jumbotron" style={JumbotronStyle}>
 			<h1 className="display-4">{props.title}</h1>
 			<p className="lead">{props.description}</p>
 			<a
