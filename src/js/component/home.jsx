@@ -53,7 +53,7 @@ const DataCard = [
 ];
 const Home = () => {
 	return (
-		<div className="container-fluid">
+		<div>
 			<Navbar
 				brand="Start Bootstrap"
 				menuItemOne="Home"

@@ -2,11 +2,12 @@ import React from "react";
 import propTypes from "prop-types";
 
 const CardStyle = {
-	textAlign: "center"
+	textAlign: "center",
+	margin: "15px 15px"
 };
 
 const CardDeckStyle = {
-	margin: "24px 0 24px 0"
+	margin: "24px 0px 24px 0px"
 };
 
 const CardDeck = props => {
