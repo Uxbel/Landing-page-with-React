@@ -14,7 +14,8 @@ const DataCard = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me"
+		buttonLabel: "Click Me",
+		imageAlt: "Grey Rectangle"
 	},
 	{
 		imageUrl:
@@ -24,7 +25,8 @@ const DataCard = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me"
+		buttonLabel: "Click Me",
+		imageAlt: "Grey Rectangle"
 	},
 	{
 		imageUrl:
@@ -34,7 +36,8 @@ const DataCard = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me"
+		buttonLabel: "Click Me",
+		imageAlt: "Grey Rectangle"
 	},
 	{
 		imageUrl:
@@ -44,7 +47,8 @@ const DataCard = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me"
+		buttonLabel: "Click Me",
+		imageAlt: "Grey Rectangle"
 	}
 ];
 const Home = () => {

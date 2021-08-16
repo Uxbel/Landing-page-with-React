@@ -19,7 +19,7 @@ const CardDeck = props => {
 						<img
 							className="card-img-top"
 							src={Card.imageUrl}
-							alt="Card image cap"
+							alt={Card.imageAlt}
 						/>
 						<div className="card-body">
 							<h5 className="card-title">{Card.title}</h5>
