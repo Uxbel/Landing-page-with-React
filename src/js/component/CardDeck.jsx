@@ -1,4 +1,5 @@
 import React from "react";
+//import Card from "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/js/component/card.jsx";
 import propTypes from "prop-types";
 
 const CardStyle = {
@@ -14,7 +15,7 @@ const CardDeck = props => {
 		<div className="card-deck" style={CardDeckStyle}>
 			{props.DataCard.map((Card, i) => {
 				return (
-					<div className="card" key={i} style={CardStyle}>
+					<div className={i} key={i} style={CardStyle}>
 						<img
 							className="card-img-top"
 							src={Card.imageUrl}
