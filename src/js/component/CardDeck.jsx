@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/js/component/card.jsx";
+//import Card from "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/js/component/card.jsx";
 import propTypes from "prop-types";
 
 const CardStyle = {
