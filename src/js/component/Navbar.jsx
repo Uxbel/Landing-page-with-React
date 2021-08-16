@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Navbar = () => {
+const Navbar = props => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container">
 				<a className="navbar-brand" href="#">
-					Start Bootstrap
+					{props.brand}
 				</a>
 				<button
 					className="navbar-toggler"
@@ -26,22 +27,22 @@ const Navbar = () => {
 								className="nav-link active"
 								aria-current="page"
 								href="#">
-								Home
+								{props.menuItemOne}
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								About
+								{props.menuItemTwo}
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Services
+								{props.menuItemThree}
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Contact
+								{props.menuItemFour}
 							</a>
 						</li>
 					</ul>
@@ -49,6 +50,14 @@ const Navbar = () => {
 			</div>
 		</nav>
 	);
+};
+
+Navbar.propTypes = {
+	brand: PropTypes.string,
+	menuItemOne: PropTypes.string,
+	menuItemTwo: PropTypes.string,
+	menuItemThree: PropTypes.string,
+	menuItemFour: PropTypes.string
 };
 
 export default Navbar;
