@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const JumbotronStyle = {
-	margin: "0 15px 0 15px"
+	margin: "24px 15px 0 15px"
 };
 
 const Jumbotron = props => {
