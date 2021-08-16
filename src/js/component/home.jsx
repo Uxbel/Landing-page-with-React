@@ -1,19 +1,28 @@
 import React from "react";
-
-//import your own components
-import NavBar from "../component/NavBar.jsx";
-import Card from "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/js/component/card.jsx";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Navbar from "../component/Navbar.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Footer from "./Footer.jsx";
 import CardDeck from "./CardDeck.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="container-fluid">
-			<NavBar />
+			<Navbar
+				brand="Start Bootstrap"
+				menuItemOne="Home"
+				menuItemTwo="About"
+				menuItemThree="Services"
+				menuItemFour="Contact"
+			/>
+			<Jumbotron
+				title="A Warm Welcome!"
+				description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquamrepellat."
+				buttonLabel="Call to action!"
+				buttonURL="#"
+			/>
 			<CardDeck />
+			<Footer />
 		</div>
 	);
 };
