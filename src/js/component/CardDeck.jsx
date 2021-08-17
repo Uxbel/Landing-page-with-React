@@ -1,32 +1,22 @@
 import React from "react";
 import propTypes from "prop-types";
-
-const CardStyle = {
-	textAlign: "center",
-	margin: "15px 15px"
-};
-
-const CardDeckStyle = {
-	margin: "24px 0px 24px 0px"
-};
+import "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/styles/CardDeckStyles.css";
 
 const CardDeck = props => {
 	return (
-		<div className="card-deck" style={CardDeckStyle}>
+		<div className="card-deck">
 			{props.DataCard.map((Card, i) => {
 				return (
-					<div className="card" key={i} style={CardStyle}>
+					<div className="card" key={i}>
 						<img
-							className="card-img-top"
+							className="card-img-top img-fluid"
 							src={Card.imageUrl}
 							alt={Card.imageAlt}
 						/>
 						<div className="card-body">
 							<h5 className="card-title">{Card.title}</h5>
 							<p className="card-text">{Card.text}</p>
-							<a
-								href={Card.buttonUrl}
-								className="btn btn-primary">
+							<a href={Card.buttonUrl} className="btn">
 								{Card.buttonLabel}
 							</a>
 						</div>

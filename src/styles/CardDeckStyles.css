@@ -1,0 +1,20 @@
+.card-deck{
+	text-align: center;
+	margin: 0px 0px 24px 0px;
+};
+
+.card{
+	margin: 24px 15px 24px 15px
+};
+
+.card-img-top{
+    width:324px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.btn{
+    background-color: rgb(17, 158, 194);
+    color: white;
+    font-weight: bold;
+}

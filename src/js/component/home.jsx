@@ -8,46 +8,45 @@ import CardDeck from "./CardDeck.jsx";
 const DataCard = [
 	{
 		imageUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		title: "Card title",
+			"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bowl-of-colorful-breakfast-cereal-with-milk-on-royalty-free-image-1622590844.jpg?crop=0.668xw:1.00xh;0.136xw,0&resize=640:*",
+		title: "CHERIOS",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me",
+		buttonLabel: "Take a Bite",
 		imageAlt: "Grey Rectangle"
 	},
 	{
 		imageUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		title: "Card title",
+			"https://www.verywellfit.com/thmb/1mL7GRztKHp4uHx9EM-TK7vStUc=/3000x2002/filters:fill(FFDB5D,1)/cereal-and-milk-a911b706cf3f4fa3bfa857ec20cd3a80.jpg",
+		title: "HEALTHY",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me",
+		buttonLabel: "Take a Bite",
+		imageAlt: "Grey Rectangle"
+	},
+	{
+		imageUrl: "https://pbs.twimg.com/media/EWKlFloWkAA5MD2.jpg",
+		title: "FUNNY",
+		text:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
+		buttonUrl:
+			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
+		buttonLabel: "Take a Bite",
 		imageAlt: "Grey Rectangle"
 	},
 	{
 		imageUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		title: "Card title",
+			"https://www.nestle.com/sites/default/files/asset-library/publishingimages/aboutus/businesses/cpw-cereals.jpg",
+		title: "CHOCODELICIUS",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
 		buttonUrl:
 			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me",
-		imageAlt: "Grey Rectangle"
-	},
-	{
-		imageUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		title: "Card title",
-		text:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
-		buttonUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
-		buttonLabel: "Click Me",
+		buttonLabel: "Take a Bite",
 		imageAlt: "Grey Rectangle"
 	}
 ];
