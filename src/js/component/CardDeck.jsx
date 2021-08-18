@@ -1,6 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
-import "/Users/marcoscarceles/Documents/Arantxa/4geeks/Landing-page-with-React/src/styles/CardDeckStyles.css";
+import "../../styles/CardDeckStyles.scss";
 
 const CardDeck = props => {
 	return (
@@ -16,7 +16,11 @@ const CardDeck = props => {
 						<div className="card-body">
 							<h5 className="card-title">{Card.title}</h5>
 							<p className="card-text">{Card.text}</p>
-							<a href={Card.buttonUrl} className="btn">
+							<a
+								href={Card.buttonUrl}
+								className="btn"
+								target="_blank"
+								rel="noopener noreferrer">
 								{Card.buttonLabel}
 							</a>
 						</div>

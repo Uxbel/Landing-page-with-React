@@ -12,10 +12,9 @@ const DataCard = [
 		title: "CHERIOS",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
-		buttonUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
+		buttonUrl: "https://media.giphy.com/media/HGe4zsOVo7Jvy/giphy.gif",
 		buttonLabel: "Take a Bite",
-		imageAlt: "Grey Rectangle"
+		imageAlt: "Bol of cereal"
 	},
 	{
 		imageUrl:
@@ -23,20 +22,18 @@ const DataCard = [
 		title: "HEALTHY",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
-		buttonUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
+		buttonUrl: "https://media.giphy.com/media/xT0xeMA62E1XIlup68/giphy.gif",
 		buttonLabel: "Take a Bite",
-		imageAlt: "Grey Rectangle"
+		imageAlt: "Bol of cereal"
 	},
 	{
 		imageUrl: "https://pbs.twimg.com/media/EWKlFloWkAA5MD2.jpg",
 		title: "FUNNY",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
-		buttonUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
+		buttonUrl: "https://media.giphy.com/media/2inElen0t36MJ9vSSy/giphy.gif",
 		buttonLabel: "Take a Bite",
-		imageAlt: "Grey Rectangle"
+		imageAlt: "Bol of cereal"
 	},
 	{
 		imageUrl:
@@ -44,10 +41,9 @@ const DataCard = [
 		title: "CHOCODELICIUS",
 		text:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lacus est. Phasellus vel justo sed augue molestie ornare.",
-		buttonUrl:
-			"https://profesional.tarkett.es/media/img/M/THH_25121917_25131917_25126917_25136917_001.jpg",
+		buttonUrl: "https://media.giphy.com/media/EKUvB9uFnm2Xe/giphy.gif",
 		buttonLabel: "Take a Bite",
-		imageAlt: "Grey Rectangle"
+		imageAlt: "Bol of cereal"
 	}
 ];
 const Home = () => {
