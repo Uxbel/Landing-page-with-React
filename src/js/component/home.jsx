@@ -57,12 +57,13 @@ const Home = () => {
 				menuItemFour="Contact"
 			/>
 			<Jumbotron
-				title="A Warm Welcome!"
+				title="Welcome to cereal paradise!"
 				description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquamrepellat."
-				buttonLabel="Call to action!"
-				buttonURL="#"
+				buttonLabel="Explore"
+				buttonURL="#card-deck-one"
 			/>
 			<CardDeck DataCard={DataCard} />
+
 			<Footer />
 		</div>
 	);

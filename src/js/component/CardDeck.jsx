@@ -4,7 +4,7 @@ import "../../styles/CardDeckStyles.scss";
 
 const CardDeck = props => {
 	return (
-		<div className="card-deck">
+		<div className="card-deck" id="card-deck-one">
 			{props.DataCard.map((Card, i) => {
 				return (
 					<div className="card" key={i}>

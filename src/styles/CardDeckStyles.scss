@@ -4,12 +4,17 @@
 };
 
 .card{
-	margin: 24px 15px 24px 15px
+	margin: 24px 12px 24px 12px
 };
 
 .card-img-top{
-    width:324px;
+    width:100%;
     height: 300px;
     object-fit: cover;
+}
+.card-title{
+    font-size: 1.5em;
+    color: rgb(17, 158, 194);
+    font-size: bold;
 }
 

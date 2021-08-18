@@ -1,16 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import "./JumbotronStyles.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
 .btn{
     background-color: rgb(17, 158, 194);
     color: white;
@@ -36,3 +28,6 @@
 .btn:active{
     box-shadow: inset 0px 0px 10px 10px rgb(36, 131, 155);
 }
+
+
+
